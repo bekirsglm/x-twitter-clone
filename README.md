@@ -1,17 +1,86 @@
-# React + Vite
+# 🐦 X (Twitter) Clone | Real-Time Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **gerçek zamanlı tweet paylaşımı**, **düzenleme**, **silme**, **beğenme** ve **medya yükleme** özelliklerine sahip modern bir **X (Twitter) klonudur**.  
+React, Firebase ve TailwindCSS teknolojileriyle geliştirilmiş, **tamamen responsive** bir sosyal medya deneyimi sunar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Özellikler
 
-## React Compiler
+- 🔥 **Gerçek Zamanlı Tweet Akışı** — Firestore üzerinden anlık veri senkronizasyonu  
+- 🖼️ **Medya Yükleme (Fotoğraf & Video)** — Firebase Storage ile entegre  
+- ✏️ **Tweet Düzenleme & Silme** — CRUD operasyonları gerçek zamanlı güncellenir  
+- ❤️ **Beğeni Sistemi** — Dinamik kullanıcı etkileşimi  
+- 🔐 **Güvenli Kimlik Doğrulama** — Firebase Authentication  
+- 🌍 **Responsive Arayüz** — TailwindCSS ile tüm cihazlarda uyumlu tasarım  
+- 🔄 **Context API + React Router** — Oturum yönetimi ve yönlendirme  
+- 🧹 **Kod Kalitesi** — ESLint ile temiz ve düzenli kod yapısı  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# x-twitter-clone
+| Teknoloji | Açıklama |
+|------------|-----------|
+| **React + Vite** | Hızlı ve optimize edilmiş front-end yapısı |
+| **Firebase Auth** | Güvenli kullanıcı kimlik doğrulama |
+| **Firestore** | Gerçek zamanlı veri tabanı yönetimi |
+| **Firebase Storage** | Medya dosyaları için güvenli depolama alanı |
+| **TailwindCSS** | Modern, sade ve responsive UI |
+| **Context API** | Global state yönetimi |
+| **React Router** | Sayfa yönlendirme yapısı |
+| **ESLint** | Kod kalitesi ve standartlaştırma |
+
+---
+
+## ⚙️ Kurulum
+
+Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+
+# 1️⃣ Depoyu klonlayın
+git clone https://github.com/bekirsglm/x-twitter-clone.git
+
+# 2️⃣ Proje dizinine gidin
+cd x-twitter-clone
+
+# 3️⃣ Gerekli bağımlılıkları yükleyin
+npm install
+
+# 4️⃣ Ortam değişkenlerini ayarlayın
+# .env dosyası oluşturun ve Firebase yapılandırma bilgilerinizi ekleyin
+
+
+# 5️⃣ Uygulamayı çalıştırın
+npm run dev
+
+## 💬 Kullanım
+
+Giriş yap veya yeni bir kullanıcı oluştur.
+
+Tweet yaz, düzenle, sil veya beğen.
+
+Görsel veya video yükleyerek paylaşımını zenginleştir.
+
+Tüm içerikler Firebase Firestore ile anında güncellenir.
+
+## 💡 Öğrendiklerim
+
+Bu proje sayesinde aşağıdaki konularda pratik kazandım:
+
+Gerçek zamanlı veri yönetimi (onSnapshot, async/await)
+
+Firebase Authentication & Storage entegrasyonu
+
+Context API ile global state mimarisi
+
+Responsive UI tasarımı (TailwindCSS)
+
+Protected route yapısı ile kullanıcı bazlı erişim kontrolü
+
+# incelediğin için teşekkür ederim
+
+## 📸 Ekran Görüntüleri
+![EkranKayd2025-11-11150103-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2a942b95-549c-409e-9eeb-a9aa390b79cd)
+
+
