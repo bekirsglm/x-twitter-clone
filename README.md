@@ -49,7 +49,12 @@ npm install
 
 # 4️⃣ Ortam değişkenlerini ayarlayın
 # .env dosyası oluşturun ve Firebase yapılandırma bilgilerinizi ekleyin
-
+VITE_FIREBASE_API_KEY=xxxx
+VITE_FIREBASE_AUTH_DOMAIN=xxxx
+VITE_FIREBASE_PROJECT_ID=xxxx
+VITE_FIREBASE_STORAGE_BUCKET=xxxx
+VITE_FIREBASE_MESSAGING_SENDER_ID=xxxx
+VITE_FIREBASE_APP_ID=xxxx
 
 # 5️⃣ Uygulamayı çalıştırın
 npm run dev
